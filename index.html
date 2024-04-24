@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="containerDark">
+        <p>Toggle Theme </p>
+        <button id="theme-btn" class="btn btn-info">Click Me!</button>
+        <hr />
+      </div>
+
+    <div class="form-container">
+        <h1>Create a New Blog Post</h1>
+        <form id="blogForm">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="blogTitle">Blog Title:</label>
+            <input type="text" id="blogTitle" name="blogTitle" required>
+          </div>
+          <div class="form-group">
+            <label for="content">Content:</label>
+            <textarea id="content" name="content" rows="8" required></textarea>
+          </div>
+          <button type="submit" id="submitBtn">Submit</button>
+        </form>
+      </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+      <script src="./assets/script.js"></script>
+</body>
+</html>
