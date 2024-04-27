@@ -1,0 +1,74 @@
+body {
+    background-color: #f2f2f2; /* Light gray background */
+  }
+  
+  /* Style for the dark mode button */
+  #theme-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the dark mode button in dark mode */
+  #theme-btn.dark-mode {
+    background-color: #28a745; /* Green button color */
+  }
+  
+  /* Style for the container of blog posts */
+  #postsContainer {
+    background-color: black; /* White background for posts container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+  }
+  
+  /* Style for individual blog posts */
+  .post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; /* White background for posts */
+  }
+  
+  /* Style for blog post title */
+  .post h2 {
+    margin-top: 0;
+    color: #333; /* Dark gray title color */
+  }
+  
+  /* Style for blog post content */
+  .post p {
+    margin-bottom: 10px;
+    color: #555; /* Dark gray content color */
+  }
+  
+  /* Style for author information */
+  .post p.author {
+    margin-top: 15px;
+    font-style: italic;
+    color: #777; /* Gray author text color */
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: #f0f0f0; /* Light mode background color */
     color: #0b0b0b; /* Light mode text color */
   }
@@ -9,9 +9,13 @@ body {
   }
   
   button {
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-size: 16px;
     cursor: pointer;
+  }
+
+  h1 {
+    align-content: center;
   }
 
   .form-container {
@@ -28,6 +32,7 @@ body {
   }
   
   label {
+    font-weight: bold;
     display: block;
     margin-bottom: 5px;
   }
@@ -59,3 +64,37 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+
+  #theme-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the dark mode button in dark mode */
+  #theme-btn.dark-mode {
+    background-color: #28a745; /* Green button color */
+  } 
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
